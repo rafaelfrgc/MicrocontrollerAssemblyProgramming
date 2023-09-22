@@ -1,6 +1,6 @@
 # Resolução
 
-## Exercício1
+## Exercício 1
 
 a) O tempo total gasto em cada instrução está no arquivo do codigo "Ex1.asm", e o tempo total gasto no programa foi de 23us, descontando o tempo de execução do loop após a primeira iteração, que foi de 2us.
 
