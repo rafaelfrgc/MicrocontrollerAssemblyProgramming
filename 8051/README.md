@@ -1,4 +1,4 @@
-# Resolução
+# Resolução - Rafael Freitas Garcia N°USP 11222374
 
 ## Exercício 1
 
