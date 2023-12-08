@@ -167,7 +167,7 @@ void main() {
 ```
 
 ## Fluxograma e imagens
-
+```mermaid
 graph TD
     A[Início] --> B(ConfigMCU)
     B --> C[Configura Timer0]
