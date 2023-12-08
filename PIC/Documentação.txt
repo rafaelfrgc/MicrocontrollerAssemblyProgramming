@@ -1,3 +1,0 @@
-O link para o repositório contendo o código e o README é: https://github.com/rafaelfrgc/Microcontrollers
-
-Entrar na pasta PIC -> Cronômetro Digital.
