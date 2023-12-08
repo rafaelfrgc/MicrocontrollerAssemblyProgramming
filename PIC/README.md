@@ -188,7 +188,6 @@ graph TD
     F -->|INT1 (Botão 2)| L[Trata Interrupção INT1]
     L --> M[Configura Timer0 para 0.25 segundo]
     M --> E
-```
 
 Além disso, o esquema de montagem da simualação na SimmulIDE é representado abaixo:
 
