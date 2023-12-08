@@ -174,22 +174,23 @@ Um fluxograma representando a interação entre os blocos de código do programa
 
 graph TD
 
-    A[Início] --> B(ConfigMCU)
+    A[Início] --> B(Configura MCU)
     B --> C[Configura Timer0]
-    C --> D[SetupGeneralInterrupts]
+    C --> D[Configura Interrupções]
     D --> E[Loop Principal]
     E -->|Interrupção| F{Checa Tipo de Interrupção}
-    F -->|Timer0| G[Handle Timer0 Interrupt]
+    F -->|Timer0| G[Trata Interrupção do Timer0]
     G --> H[Atualiza Display]
     H --> I[Reconfigura Timer0]
     I --> E
-    F -->|INT0| J[Handle INT0 Interrupt]
-    J --> K[Configura Timer0 para 1s]
+    F -->|INT0 (Botão 1)| J[Trata Interrupção INT0]
+    J --> K[Configura Timer0 para 1 segundo]
     K --> E
-    F -->|INT1| L[Handle INT1 Interrupt]
-    L --> M[Configura Timer0 para 0.25s]
+    F -->|INT1 (Botão 2)| L[Trata Interrupção INT1]
+    L --> M[Configura Timer0 para 0.25 segundo]
     M --> E
 ```
+    
 
 Além disso, o esquema de montagem da simualação na SimmulIDE é representado abaixo:
 
